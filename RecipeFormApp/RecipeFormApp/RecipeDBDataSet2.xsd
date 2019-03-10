@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RecipeDBDataSet2" targetNamespace="http://tempuri.org/RecipeDBDataSet2.xsd" xmlns:mstns="http://tempuri.org/RecipeDBDataSet2.xsd" xmlns="http://tempuri.org/RecipeDBDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="RecipeDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RecipeDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.RecipeFormApp.Properties.Settings.GlobalReference.Default.RecipeDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="IngredientsTableAdapter" GeneratorDataComponentClassName="IngredientsTableAdapter" Name="Ingredients" UserDataComponentName="IngredientsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RecipeDBConnectionString (Settings)" DbObjectName="RecipeDB.dbo.Ingredients" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Amount, Ingredient FROM dbo.Ingredients</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Amount" DataSetColumn="Amount" />
+              <Mapping SourceColumn="Ingredient" DataSetColumn="Ingredient" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RecipeDBDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="RecipeDBDataSet2" msprop:Generator_UserDSName="RecipeDBDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ingredients" msprop:Generator_TableClassName="IngredientsDataTable" msprop:Generator_TableVarName="tableIngredients" msprop:Generator_TablePropName="Ingredients" msprop:Generator_RowDeletingName="IngredientsRowDeleting" msprop:Generator_RowChangingName="IngredientsRowChanging" msprop:Generator_RowEvHandlerName="IngredientsRowChangeEventHandler" msprop:Generator_RowDeletedName="IngredientsRowDeleted" msprop:Generator_UserTableName="Ingredients" msprop:Generator_RowChangedName="IngredientsRowChanged" msprop:Generator_RowEvArgName="IngredientsRowChangeEvent" msprop:Generator_RowClassName="IngredientsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ingredient" msprop:Generator_ColumnVarNameInTable="columnIngredient" msprop:Generator_ColumnPropNameInRow="Ingredient" msprop:Generator_ColumnPropNameInTable="IngredientColumn" msprop:Generator_UserColumnName="Ingredient" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

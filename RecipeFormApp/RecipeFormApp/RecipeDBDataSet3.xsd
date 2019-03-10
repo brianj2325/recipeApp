@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RecipeDBDataSet3" targetNamespace="http://tempuri.org/RecipeDBDataSet3.xsd" xmlns:mstns="http://tempuri.org/RecipeDBDataSet3.xsd" xmlns="http://tempuri.org/RecipeDBDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="RecipeDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RecipeDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.RecipeFormApp.Properties.Settings.GlobalReference.Default.RecipeDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblDirectionsTableAdapter" GeneratorDataComponentClassName="tblDirectionsTableAdapter" Name="tblDirections" UserDataComponentName="tblDirectionsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RecipeDBConnectionString (Settings)" DbObjectName="RecipeDB.dbo.tblDirections" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DirectionNumber, Direction FROM dbo.tblDirections</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DirectionNumber" DataSetColumn="DirectionNumber" />
+              <Mapping SourceColumn="Direction" DataSetColumn="Direction" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RecipeDBDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="RecipeDBDataSet3" msprop:Generator_UserDSName="RecipeDBDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDirections" msprop:Generator_TableClassName="tblDirectionsDataTable" msprop:Generator_TableVarName="tabletblDirections" msprop:Generator_TablePropName="tblDirections" msprop:Generator_RowDeletingName="tblDirectionsRowDeleting" msprop:Generator_RowChangingName="tblDirectionsRowChanging" msprop:Generator_RowEvHandlerName="tblDirectionsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDirectionsRowDeleted" msprop:Generator_UserTableName="tblDirections" msprop:Generator_RowChangedName="tblDirectionsRowChanged" msprop:Generator_RowEvArgName="tblDirectionsRowChangeEvent" msprop:Generator_RowClassName="tblDirectionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DirectionNumber" msprop:Generator_ColumnVarNameInTable="columnDirectionNumber" msprop:Generator_ColumnPropNameInRow="DirectionNumber" msprop:Generator_ColumnPropNameInTable="DirectionNumberColumn" msprop:Generator_UserColumnName="DirectionNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="Direction" msprop:Generator_ColumnVarNameInTable="columnDirection" msprop:Generator_ColumnPropNameInRow="Direction" msprop:Generator_ColumnPropNameInTable="DirectionColumn" msprop:Generator_UserColumnName="Direction" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

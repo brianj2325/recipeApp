@@ -1,0 +1,26 @@
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.csprojAssemblyReference.cache
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.FormLogin.resources
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.frmRegistration.resources
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.Properties.Resources.resources
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.csproj.GenerateResource.cache
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.csproj.CoreCompileInputs.cache
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\bin\Debug\RecipeFormApp.exe.config
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\bin\Debug\RecipeFormApp.exe
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\bin\Debug\RecipeFormApp.pdb
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.exe
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.pdb
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.RecipeForm.resources
+C:\Users\brian\source\repos\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.Form3.resources
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\bin\Debug\RecipeFormApp.exe.config
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\bin\Debug\RecipeFormApp.exe
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\bin\Debug\RecipeFormApp.pdb
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.csprojAssemblyReference.cache
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.FormLogin.resources
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.frmRegistration.resources
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.Form3.resources
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.Properties.Resources.resources
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.RecipeForm.resources
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.csproj.GenerateResource.cache
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.exe
+C:\Users\brian\OneDrive - MNSCU\Capstone\RecipeFormApp\RecipeFormApp\obj\Debug\RecipeFormApp.pdb
